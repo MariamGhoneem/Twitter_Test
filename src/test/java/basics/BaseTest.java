@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
 import pages.LoginPage;
 import pages.home.HomePage;
 
@@ -26,7 +26,7 @@ public class BaseTest {
         driver.manage().window().maximize();
 
     }
-    @Test
+    @BeforeTest
     public void testSuccessfulLogin(){
         loginPage = new LoginPage(driver);
         //write down your username and password
