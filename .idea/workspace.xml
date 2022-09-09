@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0606d26-c5ad-401f-b08e-cea51a1dccdc" name="Changes" comment="setting driver and login" />
+    <list default="true" id="e0606d26-c5ad-401f-b08e-cea51a1dccdc" name="Changes" comment="tweet" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,8 +30,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="basics" />
+      <recent name="homePageTest" />
       <recent name="pages.home" />
+      <recent name="basics" />
       <recent name="pages" />
     </key>
   </component>
@@ -83,7 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662692163375</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="send message">
+      <created>1662692422709</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662692422710</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tweet">
+      <created>1662692691662</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662692691662</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +127,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="setting driver and login" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting driver and login" />
+    <MESSAGE value="send message" />
+    <MESSAGE value="tweet" />
+    <option name="LAST_COMMIT_MESSAGE" value="tweet" />
   </component>
 </project>
