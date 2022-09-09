@@ -4,8 +4,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 import pages.LoginPage;
 import pages.home.HomePage;
 
@@ -26,7 +26,7 @@ public class BaseTest {
         driver.manage().window().maximize();
 
     }
-    @BeforeTest
+    @BeforeClass
     public void testSuccessfulLogin(){
         loginPage = new LoginPage(driver);
         //write down your username and password
